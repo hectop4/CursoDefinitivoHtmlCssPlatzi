@@ -1,0 +1,12 @@
+.c1 h2 + p{
+  color: red;
+}
+.c2 h2~p{
+  color: blue;
+}
+div>p{
+  color: blueviolet ;
+}
+div p{
+  color: purple;
+}
