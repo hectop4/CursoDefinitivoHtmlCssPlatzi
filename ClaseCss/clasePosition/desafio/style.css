@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent{
+  
+  min-height: 100px;
+  max-height: 500px;
+  width: 80%;
+  border: black 3px solid;
+  background-color: red;
+  margin: 200px auto;
+  min-width: 200px;
+  max-width: 500px;
+  border-radius: 10px;
+  
+  
+
+}
+.son{
+  border:purple 3px solid;
+  border-radius: 20px;
+  
+  position: relative;
+  background-color: white;
+  bottom: 1em;
+  width: 80%;
+
+  min-width: 20px;
+  max-width: 300px;
+  
+  min-height: 20px;
+  max-height: 500px;
+
+}
+.son p{
+  margin: 0 5%;
+}
+.parent .son{
+  margin: 0 2em;
+}
