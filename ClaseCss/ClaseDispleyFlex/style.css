@@ -13,16 +13,25 @@ body{
 .container{
    border: .3rem solid black;
    display: flex;
-}
+   /* flex-direction: column-reverse; */
+   /* flex-wrap: wrap; */
+   justify-content: center /*flex-end flex-start space-around space-evenly*/;
+   align-items: center;
+   height: 500px;
+} 
 .box{
    width: 10rem;
    height: 10rem;
+   
 }
 .box1{
    background-color: aqua;
+   flex-grow: 1;
 }
 .box2{
    background-color: purple;
+   flex-grow: 1;
+   
 }
 .box3{
    background-color: red;
@@ -32,7 +41,9 @@ body{
 }
 .box5{
    background-color: orange;
+   
 }
 .box6{
    background-color: navy;
+   
 }
